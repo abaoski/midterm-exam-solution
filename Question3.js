@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/test', (req, res) => {
-  res.json({ message: 'Express is working! Write your full name' });
+  res.json({ message: 'Express is working! Christophe Aron P. Abao' });
 });
 
 app.listen(3000, () => {
